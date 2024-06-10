@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Apoyo</title>
+</head>
+
+<body>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="flex">
+          <a href="index.html"><img src="apoyo.png" class="logo"></a>
+          <nav>
+            <ul>
+              <li><a href="#">INÍCIO</a></li>
+              <li><a href="#sobre">SOBRE</a></li>
+              <li><a href="#ftrabalhos">GALERIA</a></li>
+              <li><a href="#id-dep">DEPOIMENTOS</a></li>
+            </ul>
+          </nav>
+          <div class="btn-contato">
+            <a href="https://api.whatsapp.com/send?phone=5521964515897" target="_blank"> <button>CONTATO</button></a>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <h1 class="h1-content">
+        <span id="changingText" class="name">APOYO</span>
+        <span id="dynamicText" class="dynamic-text">É PILATES</span>
+        <span>.</span>
+      </h1>
+    </section>
+    <section class="ft-sobre" id="sobre">
+      <div class="container2">
+        <div class="sobre-box">
+          <h3 class="h3-content">Na vibrante paisagem do Rio de Janeiro, a
+            <span>Clínica Apoyo</span> é um refúgio de esperança e renovação para aqueles que buscam uma nova
+            perspectiva de mobilidade. Especializada em próteses de perna mecânica, a Clínica Apoyo é liderada pelo
+            dedicado profissional Mario, cujo compromisso com o bem-estar e a reabilitação é incomparável.<br>
+
+            Com uma abordagem centrada no paciente, Mario e sua equipe na Clínica Apoyo trabalham incansavelmente para
+            fornecer soluções de próteses personalizadas, combinando tecnologia avançada com um toque humano. Cada
+            paciente recebe atenção individualizada e cuidado compassivo durante todo o processo, desde a consulta
+            inicial até a adaptação e acompanhamento pós-tratamento.<br>
+
+            Na Clínica Apoyo, acreditamos que a mobilidade não é apenas uma questão física, mas também uma fonte de
+            liberdade e dignidade. Estamos comprometidos em ajudar nossos pacientes a recuperarem sua independência e a
+            redescobrirem o prazer de viver plenamente. Com Mario à frente, a Clínica Apoyo é mais do que um centro de
+            reabilitação - é um farol de esperança para aqueles que buscam uma vida sem limitações.
+          </h3>
+        </div>
+      </div>
+      <img id="sobre-imagem" src="endereco.png">
+    </section>
+    <section class="trabalhos" id="ftrabalhos">
+      <div class="galeria">
+        <img src="carrosel1.1.png" />
+        <img src="carrosel2.png" />
+        <img src="carrosel3.png" />
+        <img src="carrosel4.png" />
+        <img src="carrosel5.png" />
+        <img src="carrosel6.png" />
+        <img src="carrosel7.png" />
+        <a href="https://www.instagram.com/clinicaapoyo/" target="_blank">
+          <img src="carrosel8.png" />
+        </a>
+      </div>
+    </section>
+    <section class="depoimentos" id="id-dep">
+      <h2 id="titulo-dep">O QUE FALAM SOBRE NÓS</h2>
+      <div class="comentarios">
+      
+        <input type='button' value='<' class='btn left' onclick="troca(-1)" />
+        <div id='dvSlider' onmouseover="parar()" onmouseout="iniciaSlider()"></div>
+        <input type='button' value='>' class='btn right' onclick="troca(1)" />
+      </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Apoyo Website</p>
+      <p><a href="">Política de Privacidade</a> | <a href="">Termos de Serviço</a></p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

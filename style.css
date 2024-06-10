@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  height: 300vh;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 150px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  color: #0474bc !important;
+}
+
+.dynamic-text {
+  color: rgb(255, 255, 255) !important;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  padding: 20px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.8s;
+  z-index: 9999;
+  font-size: 30px;
+}
+
+header.rolagem {
+  background-color: white;
+}
+
+header.rolagem a {
+  color: rgb(0, 0, 0);
+
+}
+
+header ul {
+  list-style-type: none;
+
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0px 40px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-contato button {
+  width: 140px;
+  height: 60px;
+  border: 0;
+  background-color: #0474bc;
+  cursor: pointer;
+  transition: .2s;
+  border-radius: 30px;
+  color: white;
+}
+
+
+.btn-contato button:hover {
+  transform: scale(1.1);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(teste1.jpg);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner h1 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transition: font-size 0.5s ease;
+}
+
+.banner h1 span {
+  color: #0474bc;
+
+}
+
+.banner h1:hover {
+  font-size: 4.5em;
+}
+
+.ft-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: white;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #0474bc;
+}
+
+
+.ft-sobre .sobre-box {
+  color: rgb(3, 3, 3);
+  padding: 40px;
+  border: 2px solid #0474bc;
+  margin-top: 25px;
+  border-radius: 20px;
+  transition: .2s;
+}
+
+.ft-sobre .sobre-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px #ffffff;
+}
+
+.container2 {
+  max-width: 1000px;
+  margin: auto;
+  font-size: 80%;
+  display: flex;
+}
+
+.sobre-box {
+  color: rgb(3, 3, 3);
+  padding: 40px;
+  border: 2px solid #0474bc;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 20px;
+  transition: .2s;
+  flex: 1;
+  max-width: 700px;
+  height: auto;
+
+}
+
+#sobre-imagem {
+  flex: 1;
+  max-width: 35%;
+  height: auto;
+  padding-right: 100px;
+}
+
+.container2 h3 span {
+  color: #0474bc;
+}
+
+.trabalhos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #1cb5f2;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+}
+
+.galeria {
+  width: 100%;
+  margin: 40px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+}
+
+.galeria img {
+  width: 80%;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.2);
+}
+
+#titulo-dep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+  background-color: #1cb5f2;
+  width: 400px;
+}
+
+.comentarios {
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#dvSlider {
+  width: 650px;
+  height: 500px;
+  border: none;
+  margin: auto;
+  background-size: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 40px;
+  font-size: 3.5em;
+  cursor: pointer;
+  color: #1cb5f2;
+}
+
+.btn.left {
+  left: 40px;
+}
+
+.btn.right {
+  right: 40px;
+}
+
+footer {
+  background-color: #1cb5f2;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
